@@ -1,0 +1,37 @@
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+p {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 32px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}

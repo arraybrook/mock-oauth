@@ -60,7 +60,7 @@ export async function POST(request: Request) {
     "phone_number": phone_number,
     "phone_number_verified": phone_number_verified,
     "address": address,
-    "updated_a": updated_at,
+    "updated_at": updated_at,
     "iss": iss || "https://mock-oauth.arraybrook.com/",
     "sub": sub,
     "aud": aud || ["com.arraybrook.mock-oauth"],
@@ -98,7 +98,7 @@ export async function POST(request: Request) {
         "token_type": "Bearer"
       }
     ), {
-    status: 201,
-    headers: { 'Content-Type': 'application/json' }
-  });
+      status: 201,
+      headers: { 'Content-Type': 'application/json' }
+    });
 }
